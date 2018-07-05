@@ -20,7 +20,7 @@ class MemberAdmin(admin.ModelAdmin):
 
 
 class EventAdmin(admin.ModelAdmin):
-    list_display = ('title', 'created', 'staging')
+    list_display = ('title', 'description', 'created', 'staging')
     search_fields = ('title', 'created')
 
 

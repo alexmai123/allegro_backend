@@ -5,5 +5,5 @@ from . import views
 
 urlpatterns = (
     url(r'^members/$', views.get_members),
-    # url(r'^events/$', views.events),
+    url(r'^events/$', views.get_event),
 )
